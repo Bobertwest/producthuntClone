@@ -5,7 +5,7 @@ import useAutenticado from "../hooks/useAutenticado";
 
 const MyApp = ({ Component, pageProps }) => {
   const user = useAutenticado();
-  console.log(user);
+
   if (user === null) return <h1>Cargando...</h1>;
   return (
     <FirebaseContext.Provider

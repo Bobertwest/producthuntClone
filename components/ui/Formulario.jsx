@@ -35,6 +35,7 @@ export const InputSubmit = styled.input`
   background-color: var(--naranja);
   width: 100%;
   padding: 1.5rem;
+  margin-bottom: 2rem;
   text-align: center;
   color: #fff;
   font-size: 1.8rem;
